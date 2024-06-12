@@ -1,0 +1,23 @@
+{
+  "name": "private-notes",
+  "version": "1.0.0",
+  "description": "Web system back-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon index"
+  },
+  "author": "Karolis Lipinskas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
